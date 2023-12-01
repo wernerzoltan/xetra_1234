@@ -4,10 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+boto = "*"
+pyyaml = "*"
 awscli = "*"
 jupyter = "*"
-boto3 = "*"
 pyarrow = "*"
+boto3 = "*"
+moto = "*"
+coverage = "*"
+pylance = "*"
 
 [dev-packages]
 
